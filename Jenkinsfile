@@ -3,7 +3,7 @@ pipeline {
        label 'windows'
     }
     tools{
-       maven 'mvn-3.6.2'
+       maven 'mvn-3.8.8'
     }
     stages {
         stage('Build') {
